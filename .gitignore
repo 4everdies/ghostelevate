@@ -1,0 +1,19 @@
+# Binaries
+ghostelevate.exe
+*.exe
+
+# Go
+*.test
+*.prof
+vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
