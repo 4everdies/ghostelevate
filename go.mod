@@ -1,4 +1,4 @@
-module github.com/ghostelevate/ghostelevate
+module github.com/4everdies/ghostelevate
 
 go 1.26.5
 
