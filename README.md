@@ -3,6 +3,8 @@
 UAC bypass builder for Windows. Feed it a .exe, get a `{name}-UAC.exe` back that elevates silently.
 built with Go, tested on Win10 22H2.
 
+<img width="459" height="304" alt="showcase" src="https://github.com/user-attachments/assets/2403dae0-66fb-4d31-93dc-32c9ebcdd769" />
+
 ## build
 requires [Go](https://go.dev/dl/go1.26.5.windows-386.msi) installed.
 ```

@@ -10,12 +10,8 @@ import (
 	"syscall"
 	"unsafe"
 )
-
-//go:embed cmd/wrapper/main.go
 var wrapperSource string
-
 var banner = "     _\n  |\\'/-..--.\n / _ _   ,  ;\n" + "`~=`" + "Y'~_<._./\n <" + "`-....__.'  fsc\n"
-
 var procDeleteFileW = syscall.NewLazyDLL("kernel32.dll").NewProc("DeleteFileW")
 
 func main() {
@@ -36,7 +32,6 @@ func main() {
 
 	technique := ""
 	payloadPath := ""
-
 	for i := 0; i < len(args); i++ {
 		if args[i] == "--technique" && i+1 < len(args) {
 			technique = strings.ToLower(args[i+1])
